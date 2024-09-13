@@ -40,5 +40,8 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.td.App"
+    mainClass = "org.td1.App"
+}
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
 }
